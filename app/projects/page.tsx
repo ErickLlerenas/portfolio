@@ -1,7 +1,7 @@
 import TaxiVideo from "@/public/taxi.gif";
 import Coffee from "@/public/coffee.gif";
 import INE from "@/public/ine.png";
-import BeFastGif from "@/public/BeFast.gif";
+import BeFast from "@/public/befast.gif";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -31,7 +31,7 @@ export default function Projects() {
 				<ProjectItem
 					title="Be Fast"
 					alt="Be fast"
-					video={BeFastGif}
+					video={BeFast}
 					year={2023}
 				/>
 			</div>
