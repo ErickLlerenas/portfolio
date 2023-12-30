@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Experience() {
 	return (
-		<div className="items-center flex justify-center h-screen">
+		<div className="items-center flex justify-center">
 			<ol className="relative border-s border-gray-200 w-11/12 md:w-9/12 lg:w-1/2 py-32">
 				<li className="mb-10 ms-4">
 					<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
