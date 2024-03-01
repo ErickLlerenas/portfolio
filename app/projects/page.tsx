@@ -18,8 +18,8 @@ export default function Projects() {
           year={2020}
         />
         <ProjectItem
-          title="Register documents"
-          alt="Register documents"
+          title="Documents Registry"
+          alt="Documents Registry"
           video={INE}
           year={2023}
         />
