@@ -245,8 +245,8 @@ export default function Skills() {
           <div className="max-w-[700px] text-center">
             <h2 className="mb-6 text-3xl font-bold">React</h2>
             <p className="mb-16 text-neutral-500 dark:text-neutral-300">
-              I like creating web pages using my expertices on React, I have
-              strong knowledge on it and a very clean code.
+              I enjoy creating web pages using my expertise in React, where I
+              have strong knowledge and maintain very clean code.
             </p>
           </div>
         </div>
@@ -356,7 +356,7 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Almost no useEffects</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  Who tought us to use useEffects everywhere? Less is more!
+                  Who taught us to use useEffects everywhere? Less is more!
                 </p>
               </div>
             </div>
@@ -383,7 +383,7 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Tailwind</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  For styling our components tailwind brights for the speed!
+                  For styling our components, Tailwind shines due to its speed!
                 </p>
               </div>
             </div>
@@ -410,7 +410,7 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Modular css</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  I also know doing modular css, along with sass and the cx
+                  I am also skilled in modular CSS, utilizing SASS and the cx
                   library for conditional styling.
                 </p>
               </div>
@@ -438,8 +438,8 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Unit Testing</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  I have experience doing unit testing with Jest. Buisness logic
-                  is key!
+                  I have experience in unit testing with Jest. Business logic is
+                  key!
                 </p>
               </div>
             </div>
