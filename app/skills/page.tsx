@@ -329,7 +329,7 @@ export default function Skills() {
                 <p className="mb-1 font-bold">Custom Hooks</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
                   I love custom hooks to separate the design from the logic of
-                  the app, that's clean!
+                  the app, that&apos;s clean!
                 </p>
               </div>
             </div>
