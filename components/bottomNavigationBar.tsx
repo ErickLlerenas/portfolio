@@ -62,7 +62,7 @@ function NavigationItem({
         }
       >
         <Icon className="text-2xl text-gray-600" />
-        <span className="sr-only">{title}</span>
+        <span className="text-sm">{title}</span>
       </Link>
       <div
         id={title}
