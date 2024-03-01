@@ -9,52 +9,43 @@ import Image, { StaticImageData } from "next/image";
 
 export default function Projects() {
   return (
-    <section className="grid grid-cols-3 gap-2 mx-2 my-2">
-      <div className="flex flex-col gap-2">
-        <ProjectItem
-          title="Taxi App (Reference)"
-          alt="Taxi app UI design"
-          video={TaxiVideo}
-          year={2020}
-        />
-        <ProjectItem
-          title="Documents Registry"
-          alt="Documents Registry"
-          video={INE}
-          year={2023}
-        />
-      </div>
-
-      <div className="flex flex-col gap-2">
-        <ProjectItem
-          title="Delivery app"
-          alt="Delivery app flow"
-          video={Delivery}
-          year={2024}
-        />
-
-        <ProjectItem
-          title="Phone Login"
-          alt="Phone login flow"
-          video={BeFast}
-          year={2023}
-        />
-      </div>
-
-      <div className="flex flex-col gap-2">
-        <ProjectItem
-          title="Coffee & Crepe POS (Inspiration)"
-          alt="Coffee & Crepe POS UI"
-          video={Coffee}
-          year={2023}
-        />
-        <ProjectItem
-          title="Driver screens"
-          alt="Driver screens"
-          video={DriverScreens}
-          year={2023}
-        />
-      </div>
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mx-2 my-2">
+      <ProjectItem
+        title="Taxi App (Reference)"
+        alt="Taxi app UI design"
+        video={TaxiVideo}
+        year={2020}
+      />
+      <ProjectItem
+        title="Documents Registry"
+        alt="Documents Registry"
+        video={INE}
+        year={2023}
+      />
+      <ProjectItem
+        title="Delivery app"
+        alt="Delivery app flow"
+        video={Delivery}
+        year={2024}
+      />
+      <ProjectItem
+        title="Phone Login"
+        alt="Phone login flow"
+        video={BeFast}
+        year={2023}
+      />
+      <ProjectItem
+        title="Coffee & Crepe POS (Inspiration)"
+        alt="Coffee & Crepe POS UI"
+        video={Coffee}
+        year={2023}
+      />
+      <ProjectItem
+        title="Driver screens"
+        alt="Driver screens"
+        video={DriverScreens}
+        year={2023}
+      />
     </section>
   );
 }
