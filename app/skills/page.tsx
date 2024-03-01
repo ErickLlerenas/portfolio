@@ -202,8 +202,8 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Unit Testing</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  I have experience doing unit testing on React, willing to
-                  learn on Flutter.
+                  I have experience doing unit testing in React and am willing
+                  to learn it for Flutter.
                 </p>
               </div>
             </div>
@@ -230,8 +230,9 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">E2E Testing</p>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  Same here, have done multiple E2E testing on Cypress, willing
-                  to learn this for Flutter.
+                  Similarly, I have conducted multiple E2E tests using Cypress
+                  and am eager to learn how to apply these testing practices in
+                  Flutter.
                 </p>
               </div>
             </div>
