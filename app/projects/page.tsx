@@ -4,6 +4,9 @@ import INE from "@/public/ine.png";
 import Delivery from "@/public/delivery.png";
 import BeFast from "@/public/befast.gif";
 import DriverScreens from "@/public/driver.png";
+import DestinationSearch from "@/public/destination.png";
+import AutocompleteSearch from "@/public/autocomplete.gif";
+import Menu from "@/public/menu.png";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -23,6 +26,12 @@ export default function Projects() {
           video={INE}
           year={2023}
         />
+        <ProjectItem
+          title="Autocomplete search"
+          alt="Autocomplete search"
+          video={AutocompleteSearch}
+          year={2024}
+        />
       </div>
 
       <div className="flex flex-col gap-2">
@@ -39,6 +48,12 @@ export default function Projects() {
           video={BeFast}
           year={2023}
         />
+        <ProjectItem
+          title="Destination Search"
+          alt="Destination Search"
+          video={DestinationSearch}
+          year={2024}
+        />
       </div>
 
       <div className="flex flex-col gap-2">
@@ -54,6 +69,7 @@ export default function Projects() {
           video={DriverScreens}
           year={2023}
         />
+        <ProjectItem title="Menu" alt="Menu" video={Menu} year={2023} />
       </div>
     </section>
   );
