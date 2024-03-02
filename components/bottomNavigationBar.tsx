@@ -14,15 +14,16 @@ export default function BottomNavigationBar() {
           Icon={AiFillHome}
           classname="rounded-s-full"
         />
-        <NavigationItem
-          title="Projects"
-          href="/projects"
-          Icon={BsFillSuitcaseLgFill}
-        />
+
         <NavigationItem
           title="Experience"
           href="/experience"
           Icon={AiFillFile}
+        />
+        <NavigationItem
+          title="Projects"
+          href="/projects"
+          Icon={BsFillSuitcaseLgFill}
         />
         <NavigationItem title="Skills" href="/skills" Icon={FaTools} />
         <NavigationItem
