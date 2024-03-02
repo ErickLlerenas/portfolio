@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="absolute top-0 right-0 mr-44 mt-44">
+      <div className="hidden md:block absolute top-0 right-0 mr-44 mt-44">
         <p className="text-gray-600 text-lg bg-white p-4 rounded-3xl rounded-bl-md">
           I do web and mobile
           <span className="block">development.</span>
@@ -26,7 +26,7 @@ export default function Home() {
         className="w-72 sm:w-64 md:w-2/5"
       />
 
-      <div className="absolute bottom-0 left-0 ml-44 mb-52">
+      <div className="hidden md:block absolute bottom-0 left-0 ml-44 mb-52">
         <span className="text-gray-600 font-extrabold text-3xl md:text-4xl">
           +3
         </span>
@@ -35,7 +35,7 @@ export default function Home() {
         </span>
       </div>
 
-      <div className="absolute bottom-0 right-0 mr-44 mb-52">
+      <div className="hidden md:block absolute bottom-0 right-0 mr-44 mb-52">
         <span className="block text-gray-600 text-lg md:text-xl">
           Strong <b>SOLID</b> principles
         </span>
