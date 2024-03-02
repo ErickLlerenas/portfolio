@@ -21,9 +21,9 @@ export default function Home() {
       <Image
         src={profilePicture}
         alt="Erick Llerenas Profile Picture"
-        width={400} // Ajuste fijo de ancho
-        height={400} // Asegurando la relación de aspecto
-        className="w-72 sm:w-64 md:w-96" // Ajustes de tamaño responsivo
+        width={400}
+        height={400}
+        className="w-72 sm:w-64 md:w-2/5"
       />
 
       <div className="absolute bottom-0 left-0 ml-44 mb-52">
