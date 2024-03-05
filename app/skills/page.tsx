@@ -410,8 +410,8 @@ export default function Skills() {
               <div className="ml-2 grow">
                 <p className="mb-1 font-bold">Modular css</p>
                 <p className="text-neutral-500">
-                  I am also skilled in modular CSS, utilizing SASS and the cx
-                  library for conditional styling.
+                  I am also skilled in modular CSS, utilizing SASS and the
+                  classNames library for conditional styling.
                 </p>
               </div>
             </div>
